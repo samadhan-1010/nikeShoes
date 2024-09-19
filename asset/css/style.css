@@ -1,0 +1,243 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position:relative;
+    /* background-color: rgb(149, 189, 189); */
+    
+}
+
+header{
+    margin-left: none;
+    width: 99%;
+    /* position: fixed; */
+    /* color: coral; */
+    /* text-align: center; */
+    color:#fff;
+    /* background-color: rgba(0, 0, 0, 0.76); */
+    background-color: #000;
+    border-radius:10px;
+    /* height: 140px; */
+    padding:0px 0px 10px 15px;
+    border-bottom:2px solid #000;
+}
+.span{
+    /* font-family:'Courier New', Courier, monospace; */
+    font-size: 70px;
+    color: coral;
+    
+}
+input{
+    border: 2px solid white;
+    justify-content: center;
+    margin-left: 110px;
+    /* margin: 10px 0px 70px 130px; */
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+}
+.nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    pointer-events: all;
+    width: 99%;
+    top: 1px;
+    position: sticky; 
+    z-index: 1;
+    border-radius: 5px;
+    /* background-color: lightseagreen; */
+    background-color: #000;
+    /* background-color: rgba(0, 0, 0, 0.76); */
+    padding-top: 5px;
+    display: flex;
+    justify-content:space-around;
+    height: 35px;
+    border-bottom: 2px solid #fff;
+}
+#Search_icon{
+    color: #000000b5;
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    left: 250px;
+    font-size: 20px;
+}
+
+#user_icone{
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    left: 220px;
+    color: #fff;
+}
+
+.nav:hover{
+    background-color: #000;
+}
+.profile{
+    width: 99%;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    /* border: 2px solid black; */
+    background-color: antiquewhite;
+    /* position: sticky; */
+    /* top: 1px; */
+}
+#navOption{
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+#navOption:hover{
+    color: blue;
+    /* color: lightblue; */
+}
+.Advertising img{
+    width: 99%;
+    margin: 2px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+/* #Bonanza{ */
+    /* height: 300px; */
+/* } */
+
+.shoes_container{
+    width: 99%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    /* z-index: -1; */
+    /* display:inline-block; */
+    /* height: 225px; */
+    /* border: 2px solid black; */
+    
+}
+.shoes_box{
+    font-weight: 300;
+    color: rgb(93, 56, 56);
+    /* background-color: rgba(163, 132, 121, 0.514); */
+    background-color: rgba(245, 245, 245, 0.041);
+    height: 224px;
+    width: 17%;
+    border:1px solid whitesmoke;
+    border-radius:5px;
+    text-align: center;
+}
+.shoes_box img{
+    margin-top: 5%;
+    height:125px;
+    /* filter:grayscale(0.1); */
+    width: 100px;
+    /* width: 60%; */
+    /* padding-left:9%; */
+    border-radius: 5px;
+}
+/* #Nike1:hover{ */
+    /* text-align: center; */
+    /* height: 250px; */
+   /* width:20%;} */
+
+
+
+.shoes_box img:hover{
+    height: 150px;
+    width: 125px;
+    /*  margin-left:9% */
+}
+
+
+
+.prodoctname{
+    color: #000;
+    /* color:whitesmoke; */
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Add_card_button{
+    background:#000;
+    color: #fff;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+#iconshoping{
+    color: #fff;
+}
+
+/* section_NO_5 */
+
+.section_NO5{
+    display: inline-block;
+    width: 99%;
+}
+.section_NO5_box{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: 3px solid wheat; */
+    background-color:  whitesmoke;
+    border-radius: 5px;
+    height: 200px;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* footer section */
+
+footer{
+    width: 99%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.805);
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Track_order{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+font-weight: 700;
+border-radius: 3px;
+padding: 12px 12px;
+margin: 50px;
+border: none;
+/* border: 2px solid #fff; */
+color: #fff;
+background-color: lightseagreen;
+transition: all ease 0.5s;
+}
+.Track_order:hover{
+    box-shadow: 5px 5px 0px #f7f3f3;
+    cursor: pointer;
+}
+.INFORMATION{
+font-size: 18px;
+font-weight:600;
+color: #fff;
+}
+#CONTACT{
+    text-align: center;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/3.project.Nike/asset/css/footer_style.css"> -->
+     <link rel="stylesheet" href="../asset/css/footer_style.css">
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        #scner{
+            width: 500px;
+            height: 500px;
+
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <br>
+       <p class="INFORMATION">INFORMATION</p><br>
+       <hr><br>
+   
+       <p class="INFORMATION">GUIDES</p><br>
+       <!-- <a href=""> <p style="color: white;">Track Your Order</p></a> -->
+   
+       <button class="Track_order">
+           <i class="fa-solid fa-map-location-dot"></i>
+           Track Your Order         
+       <button  class="Track_order" id="OrderNow">Subscribe Website</button>  
+   
+   <section class="">
+       <div class="info_container hide">  
+               <input type="text" class="Input_info" id="InputName" placeholder="Enter your name">
+               <input type="tel" class="Input_info" id="InputDate" placeholder="Enter your phone Number">
+               <input type="text" class="Input_info" id="InputAddress" placeholder="Address"> 
+       </div>
+       
+   </section>
+   
+           
+   </button>
+       <hr>
+       <p class="INFORMATION" id="CONTACT">CONTACT US- <br><br>
+           <i class="fa-brands fa-square-whatsapp"></i>
+           <!-- <i class="fa-brands fa-square-whatsapp fa-shake"></i> -->
+   
+       WhatsApp:+91&nbsp;8767548603 <br><br>
+       <i class="fa-solid fa-phone"></i>
+       Call:+91&nbsp;9284863176
+       <!-- <h1><span class="span">T</span>esco</h1> -->
+   
+       <br><br>
+       <i class="fa-regular fa-hourglass-end"></i>
+       (09:00AM to 09:00) <br><br>
+       </p>
+   
+   
+       <div class="bottomSPanLOGO"> <span class="span">T</span>esco </div>    
+   
+   </footer>
+   
+   <script>
+       let InputName,InputDate,InputAddress,Infobox,OrderNow,Orderback;
+   
+   Infobox = document.querySelector(".info_container"); 
+   InputName = document.querySelector("#InputName");
+   InputDate = document.querySelector("#InputDate");
+   InputAddress = document.querySelector("#InputAddress");
+   OrderNow = document.querySelector("#OrderNow");
+   Orderback = document.querySelector("#Orderback");
+   
+   
+   const boxShow = () => {
+           
+           Infobox.classList.remove("hide")
+       }
+   
+   OrderNow.addEventListener("click", boxShow);
+   Orderback.addEventListener("click", boxHide);
+   </script>
+   <!-- <script src="/3.project.Nike/asset/js/script.js"></script> -->
+    <script src="./asset/js/ADD.CARD.JS"></script>
+   
+</body>
+</html>
